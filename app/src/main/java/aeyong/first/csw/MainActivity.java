@@ -1,4 +1,4 @@
-package info.androidhive.introslider;
+package aeyong.first.csw;
 
 import android.content.Intent;
 import android.os.Bundle;

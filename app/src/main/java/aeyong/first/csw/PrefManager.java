@@ -1,4 +1,4 @@
-package info.androidhive.introslider;
+package aeyong.first.csw;
 
 import android.content.Context;
 import android.content.SharedPreferences;

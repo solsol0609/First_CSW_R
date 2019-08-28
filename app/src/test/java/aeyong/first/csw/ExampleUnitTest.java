@@ -1,4 +1,4 @@
-package info.androidhive.introslider;
+package aeyong.first.csw;
 
 import org.junit.Test;
 

@@ -1,4 +1,4 @@
-package info.androidhive.introslider;
+package aeyong.first.csw;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;
