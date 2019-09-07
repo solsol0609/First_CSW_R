@@ -1,35 +1,32 @@
 package aeyong.first.csw;
 
-import android.content.Intent;
+import android.app.TabActivity;
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.Toolbar;
-import android.view.View;
-import android.widget.Button;
+import android.widget.TabHost;
 
-public class MainActivity extends AppCompatActivity {
+@SuppressWarnings("deprecation")
+public class MainActivity extends TabActivity{ // 상속이 TabActivity이다. 주의할 것!
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-        setSupportActionBar(toolbar);
 
-        findViewById(R.id.btn_play_again).setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                // We normally won't show the welcome slider again in real app
-                // but this is for testing
-                PrefManager prefManager = new PrefManager(getApplicationContext());
+        TabHost tabHost = getTabHost();
 
-                // make first time launch TRUE
-                prefManager.setFirstTimeLaunch(true);
+        TabHost.TabSpec tabSpecSong = tabHost.newTabSpec("Community").setIndicator("커뮤니티");
+        tabSpecSong.setContent(R.id.tab1_title);
+        tabHost.addTab(tabSpecSong);
 
-                startActivity(new Intent(MainActivity.this, WelcomeActivity.class));
-                finish();
-            }
-        });
+        TabHost.TabSpec tabSpecArtist = tabHost.newTabSpec("Schedule").setIndicator("학사 일정");
+        tabSpecArtist.setContent(R.id.tab2_title);
+        tabHost.addTab(tabSpecArtist);
+
+        TabHost.TabSpec tabSpecAlbum = tabHost.newTabSpec("App Notice").setIndicator("앱 공지");
+        tabSpecAlbum.setContent(R.id.tab3_title);
+        tabHost.addTab(tabSpecAlbum);
+
+        tabHost.setCurrentTab(0);
 
     }
 }

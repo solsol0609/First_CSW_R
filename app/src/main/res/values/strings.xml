@@ -40,4 +40,9 @@
     <!-- 설정 액티비티 -->
     <string name="settings_subtitle_first">커뮤니티 설정</string>
 
+    <!-- 메인 액티비티 -->
+    <string name="tab1_title">커뮤니티</string>
+    <string name="tab2_title">학사 일정</string>
+    <string name="tab3_title">앱 공지</string>
+
 </resources>
