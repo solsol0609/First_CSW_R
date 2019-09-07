@@ -5,18 +5,39 @@
     <string name="skip">넘기기</string>
     <string name="start">시작</string>
 
-    <string name="slide_1_title">Hello Food!</string>
-    <string name="slide_1_desc">The easiest way to order food from your favourite restaurant!</string>
+    <string name="slide_1_title">안녕하세요!</string>
+    <string name="slide_1_desc">이 앱은
+    \n우송대학교 컴퓨터 정보·보안 전공 학생이거나 \n 입학을 원하는 예비 신입생들을 위한 앱이에요.
+    \n
+    \n이 앱에는 다양한 기능들이 있어요.
+    \n우리 같이 알아보아요.</string>
 
-    <string name="slide_2_title">Movie Tickets</string>
-    <string name="slide_2_desc">Book movie tickets for your family and friends!</string>
+    <string name="slide_2_title">다양한 기능들이 있어요!</string>
+    <string name="slide_2_desc">이 앱에는 다양한 기능들이 통합 되어 있어요.
+    \n
+    \n- 학교 주변 지역을 지도로 볼 수 있어요.
+    \n- 학사 일정을 확인 할 수 있어요.
+    \n- 커뮤니티로 다른 학생들과 이야기 해보세요.
+    \n- 이스터 에그를 찾아보세요.
+    \n
+    \n그 외의 기능들이 차근차근 업데이트 될거에요.</string>
 
-    <string name="slide_3_title">Great Discounts</string>
-    <string name="slide_3_desc">Best discounts on every single service we offer!</string>
+    <string name="slide_3_title">아직은 부족한 앱이에요.</string>
+    <string name="slide_3_desc">아직 이 앱은 많이 부족해요.
+    \n그래서 여러분들의 도움이 필요해요.
+    \n
+    \n만약 오류가 나면 꼭 알려주세요.
+    \n또는 필요한 기능이 있으면 알려주세요.
+    \n
+    \n이 앱이 더 발전해 나갈 수 있도록 도와주세요.</string>
 
-    <string name="slide_4_title">World Travel</string>
-    <string name="slide_4_desc">Book tickets of any transportation and travel the world!</string>
+    <string name="slide_4_title">이제 시작해 볼까요?</string>
+    <string name="slide_4_desc">다양한 기능들을 직접 사용해 보세요!</string>
 
     <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear data</string>
     <string name="play_again">Play Again</string>
+
+    <!-- 설정 액티비티 -->
+    <string name="settings_subtitle_first">커뮤니티 설정</string>
+
 </resources>
