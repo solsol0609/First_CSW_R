@@ -1,4 +1,4 @@
-package com.codingdemos.tablayout;
+package aeyoung.first.csw;
 
 
 import android.os.Bundle;
@@ -10,6 +10,8 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Toast;
+
+import aeyoung.first.csw.R;
 
 
 /**

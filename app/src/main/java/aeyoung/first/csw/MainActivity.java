@@ -1,4 +1,4 @@
-package com.codingdemos.tablayout;
+package aeyoung.first.csw;
 
 import android.os.Build;
 import android.os.Bundle;
@@ -8,6 +8,8 @@ import android.support.v4.content.ContextCompat;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+
+import aeyoung.first.csw.R;
 
 public class MainActivity extends AppCompatActivity {
 
