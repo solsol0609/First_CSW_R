@@ -1,4 +1,4 @@
-package aeyoung.first.csw;
+package com.aeyoung.csw;
 
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
@@ -21,11 +21,13 @@ public class PageAdapter extends FragmentPagerAdapter {
     public Fragment getItem(int position) {
         switch (position) {
             case 0:
-                return new ChatFragment();
+                return new MajorFragment();
             case 1:
-                return new StatusFragment();
+                return new FresherFragment();
             case 2:
-                return new CallFragment();
+                return new CommunityFragment();
+            case 3:
+                return new SettingsFragment();
             default:
                 return null;
         }

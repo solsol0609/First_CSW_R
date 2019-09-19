@@ -5,7 +5,7 @@
   android:layout_width="match_parent"
   android:layout_height="match_parent"
   android:orientation="vertical"
-  tools:context="aeyong.first.csw.aeyoung.codingdemos.tablayout.MainActivity">
+  tools:context="com.aeyoung.csw.MainActivity">
 
   <android.support.v7.widget.Toolbar
     android:id="@+id/toolbar"
@@ -26,22 +26,28 @@
     app:tabTextColor="@android:color/black">
 
     <android.support.design.widget.TabItem
-      android:id="@+id/tabChats"
+      android:id="@+id/tabMajor"
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
-      android:text="Chats" />
+      android:text="@string/tab_major" />
 
     <android.support.design.widget.TabItem
-      android:id="@+id/tabStatus"
+      android:id="@+id/tabFresher"
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
-      android:text="Status" />
+      android:text="@string/tab_fresher" />
 
     <android.support.design.widget.TabItem
-      android:id="@+id/tabCalls"
+      android:id="@+id/tabCommunity"
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
-      android:text="Calls" />
+      android:text="@string/tab_community" />
+
+    <android.support.design.widget.TabItem
+        android:id="@+id/tabSettings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tab_settings" />
 
   </android.support.design.widget.TabLayout>
 

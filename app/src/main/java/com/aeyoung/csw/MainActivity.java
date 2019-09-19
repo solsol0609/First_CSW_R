@@ -1,4 +1,4 @@
-package aeyoung.first.csw;
+package com.aeyoung.csw;
 
 import android.os.Build;
 import android.os.Bundle;
@@ -9,17 +9,16 @@ import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 
-import aeyoung.first.csw.R;
-
 public class MainActivity extends AppCompatActivity {
 
     Toolbar toolbar;
     TabLayout tabLayout;
     ViewPager viewPager;
     PageAdapter pageAdapter;
-    TabItem tabChats;
-    TabItem tabStatus;
-    TabItem tabCalls;
+    TabItem tabMajor;
+    TabItem tabFresher;
+    TabItem tabCommunity;
+	TabItem tabSettings;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -27,13 +26,14 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         toolbar = findViewById(R.id.toolbar);
-        toolbar.setTitle(getResources().getString(R.string.app_name));
+        toolbar.setTitle(getResources().getString(R.string.main_title));
         setSupportActionBar(toolbar);
 
         tabLayout = findViewById(R.id.tablayout);
-        tabChats = findViewById(R.id.tabChats);
-        tabStatus = findViewById(R.id.tabStatus);
-        tabCalls = findViewById(R.id.tabCalls);
+        tabMajor = findViewById(R.id.tabMajor);
+        tabFresher = findViewById(R.id.tabFresher);
+        tabCommunity = findViewById(R.id.tabCommunity);
+		tabSettings = findViewById(R.id.tabSettings);
         viewPager = findViewById(R.id.viewPager);
 
         pageAdapter = new PageAdapter(getSupportFragmentManager(), tabLayout.getTabCount());
@@ -55,12 +55,21 @@ public class MainActivity extends AppCompatActivity {
                     }
                 } else if (tab.getPosition() == 2) {
                     toolbar.setBackgroundColor(ContextCompat.getColor(MainActivity.this,
-                            android.R.color.darker_gray));
+                            R.color.tab_community));
                     tabLayout.setBackgroundColor(ContextCompat.getColor(MainActivity.this,
-                            android.R.color.darker_gray));
+                            R.color.tab_community));
                     if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
                         getWindow().setStatusBarColor(ContextCompat.getColor(MainActivity.this,
-                                android.R.color.darker_gray));
+                                R.color.tab_community));
+                    }
+                } else if (tab.getPosition() == 3) {
+                    toolbar.setBackgroundColor(ContextCompat.getColor(MainActivity.this,
+                            R.color.tab_settings));
+                    tabLayout.setBackgroundColor(ContextCompat.getColor(MainActivity.this,
+                            R.color.tab_settings));
+                    if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
+                        getWindow().setStatusBarColor(ContextCompat.getColor(MainActivity.this,
+                                R.color.tab_settings));
                     }
                 } else {
                     toolbar.setBackgroundColor(ContextCompat.getColor(MainActivity.this,

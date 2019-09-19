@@ -3,4 +3,8 @@
   <color name="colorPrimary">#FFC107</color>
   <color name="colorPrimaryDark">#FFA000</color>
   <color name="colorAccent">#009688</color>
+
+  <!--Tab Color -->
+  <color name="tab_community">#1FF258</color>
+  <color name="tab_settings">#1FDDF2</color>
 </resources>

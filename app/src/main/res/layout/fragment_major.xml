@@ -2,14 +2,14 @@
   xmlns:tools="http://schemas.android.com/tools"
   android:layout_width="match_parent"
   android:layout_height="match_parent"
-  tools:context="aeyong.first.csw.aeyoung.codingdemos.tablayout.ChatFragment">
+  tools:context="com.aeyoung.csw.MajorFragment">
 
   <!-- TODO: Update blank fragment layout -->
   <TextView
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:layout_gravity="center_vertical|center_horizontal"
-    android:text="Chats"
+    android:text="Major"
     android:textSize="30sp" />
 
 </FrameLayout>

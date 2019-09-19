@@ -1,6 +1,16 @@
 <resources>
-  <string name="app_name">Tablayout</string>
+    <!-- 앱 이름 -->
+    <string name="app_name">Tablayout</string>
 
-  <!-- TODO: Remove or change this placeholder text -->
-  <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!--메인 화면 탭 부분 제목 -->
+    <string name="main_title">IT 융합학부</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- Tab Menu -->
+    <string name="tab_major">학부 알림</string>
+    <string name="tab_fresher">예비 학부생</string>
+    <string name="tab_community">커뮤니티</string>
+    <string name="tab_settings">앱 정보</string>
 </resources>

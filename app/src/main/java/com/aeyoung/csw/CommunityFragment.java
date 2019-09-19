@@ -1,4 +1,4 @@
-package aeyoung.first.csw;
+package com.aeyoung.csw;
 
 
 import android.os.Bundle;
@@ -11,20 +11,18 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Toast;
 
-import aeyoung.first.csw.R;
-
 
 /**
  * A simple {@link Fragment} subclass.
  */
-public class CallFragment extends Fragment {
+public class CommunityFragment extends Fragment {
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         setHasOptionsMenu(true);
-        return inflater.inflate(R.layout.fragment_call, container, false);
+        return inflater.inflate(R.layout.fragment_community, container, false);
     }
 
     @Override
