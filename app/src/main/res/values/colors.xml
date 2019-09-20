@@ -4,6 +4,9 @@
   <color name="colorPrimaryDark">#FFA000</color>
   <color name="colorAccent">#009688</color>
 
+  <!-- Splash Activity Background -->
+  <color name="splash_background">#7BF542</color>
+
   <!--Tab Color -->
   <color name="tab_community">#1FF258</color>
   <color name="tab_settings">#1FDDF2</color>
