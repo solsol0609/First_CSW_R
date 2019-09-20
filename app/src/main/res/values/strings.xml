@@ -13,4 +13,7 @@
     <string name="tab_fresher">예비 학부생</string>
     <string name="tab_community">커뮤니티</string>
     <string name="tab_settings">앱 정보</string>
+
+    <!-- 뒤로가기 버튼을 두번 눌러 종료시 나타나는 토스트 알림 -->
+    <string name="double_back_key">한번 더 누르면 종료돼요</string>
 </resources>
