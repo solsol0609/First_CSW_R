@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Tablayout-master.iml" filepath="$PROJECT_DIR$/Tablayout-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CardViewShadowColor-master.iml" filepath="$PROJECT_DIR$/CardViewShadowColor-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/CardViewShadowColor-master-app.iml" filepath="$PROJECT_DIR$/app/CardViewShadowColor-master-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cardview/CardViewShadowColor-master-cardview.iml" filepath="$PROJECT_DIR$/cardview/CardViewShadowColor-master-cardview.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cardview/cardview.iml" filepath="$PROJECT_DIR$/cardview/cardview.iml" />
     </modules>
   </component>
 </project>
