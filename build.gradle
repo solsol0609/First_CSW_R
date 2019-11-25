@@ -8,7 +8,7 @@ buildscript {
 
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:3.0.1'
+        classpath 'com.android.tools.build:gradle:3.5.2'
 
         classpath 'com.novoda:bintray-release:0.8.0'
 
@@ -21,7 +21,7 @@ buildscript {
 ext {
     userOrg = 'hnszyp'
     artifactId = 'cardview'
-    groupId = 'com.zyp.cardview'
+    groupId = 'com.aeyoung.postit.communitys'
     uploadName = 'cardview'
     publishVersion = '1.0.1'
     desc = 'CardView change shadow color'

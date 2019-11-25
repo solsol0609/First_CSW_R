@@ -1,3 +1,85 @@
 <resources>
-    <string name="app_name">CardViewShadowColor</string>
+    <string name="app_name">포스트 IT</string>
+    <string name="title_activity_welcome">Home Screen</string>
+    <string name="next">다음</string>
+    <string name="skip">넘기기</string>
+    <string name="start">완료</string>
+
+    <string name="slide_1_title">안녕하세요!</string>
+    <string name="slide_1_desc">이 앱을 통해\n
+        학부에 대해 더 알아갔으면 좋겠어요!</string>
+
+    <string name="slide_2_title">무슨 기능이 있냐고요?</string>
+    <string name="slide_2_desc">학부 소개와 교육 과정\n
+        일정, 커뮤니티 기능이 있어요!</string>
+
+    <string name="slide_3_title">함께 발전하는 앱이에요!</string>
+    <string name="slide_3_desc">이 앱은 여러분들과 함께\n
+        발전해 나가는 앱이에요!\n\n
+
+    불편한 점이나 버그들이 많이 있어요.\n
+        그럴땐 알려주세요!</string>
+
+    <string name="slide_4_title">마지막으로</string>
+    <string name="slide_4_desc">이 앱을 통해 학부 학생들과\n많은 정보 공유가 있길 바랍니다!</string>
+
+    <!--전공명-->
+    <string name="computersecurity">\n컴퓨터정보보안전공</string>
+    <string name="smartit">\n스마트IT보안전공</string>
+
+    <!--메인 화면-->
+    <string name="main_hello">\n인사말</string>
+    <string name="main_major_intro">\n전공소개</string>
+    <string name="main_edu_process">\n교육과정</string>
+    <string name="main_schedule">\n학교일정</string>
+    <string name="main_community">\n커뮤니티</string>
+    <string name="main_app_info">\n앱 정보</string>
+    <!-- 전공소개 공통 -->
+    <string name="major_intro_title">\n전공소개</string>
+
+    <!--전공소개 컴정-->
+    <string name="cs_intro_first">\n컴퓨터정보·보안전공은 최신 스마트폰 응용 전문가를 양성할 준비가 되어 있으며 또한 유능한 보안전문가를 양성할 수 있는 교수진, 연구시설, 강의시설을 산학협력시스템을 완벽히 갖추고 있습니다.</string>
+    <string name="cs_intro_second">산업체에서 필요로 하는 교과목과 교육내용으로 충실하게 교육과정이 구성되어 전 과정을 마치는 단계에서는 현장에 바로 투입할 수 있는 등 전문성 있는 교육을 실시하고 있습니다.</string>
+    <string name="cs_intro_third">전공에 대한 지식의 습득만을 치중하다보면 자칫 건조하게 느껴질 수 있는 대학생활을 지양하기 위하여 전인적인 인간교육을 힘쓰고 있습니다.</string>
+    <string name="cs_intro_fourth">이를 위하여 동아리활동을 포함한 다양한 대학문화를 체험할 수 있도록 지도하고 있습니다.\n</string>
+
+    <!--전공소개 스마트-->
+    <string name="smart_intro_first">스마트IT·보안전공은 제 4차 산업혁명에 대비한 최신의 스마트 IT융합 기술(사물인터넷, 빅데이터, 가상현실, 증강현실, 인공지능등)을 습득하여 스마트 모바일, 스마트폰 앱 개발, 정보보호, 고급 소프트웨어개발 분야 및 스마트 네트워크, 사물인터넷, 빅데이터 분야의 IT 인재를 육성하고 있습니다. 특히, 스마트미디어 시대의 수요에 맞춰 모바일/정보보호 특화 과정을 통해 ICT 융합기술 개발 및 운용능력을 원활히 수행할 수 있는 창조력을 갖춘 최고의 전문가 양성을 목표로 교육합니다.</string>
+
+    <!--인사말-->
+    <string name="greeting_main">소프트웨어를 통해 미래를 만들어가는\n IT융합학부 입니다.\n\n 각 전공별 학부장님의 인사말은\n 각 전공명을 선택해 주세요.</string>
+
+    <string name="greeting_common_1">우송 비트 단기과정, 고급과정, LG CNS SmartFactory 프래그래머 양성과정 등을 재학생들이 원할 때 이수할 수 있도록
+충분히 지원하고 있습니다. 우송 비트 교육 프로그램을 통하여 학생들은 IT 분야의 핵심에 우뚝 설수 있을 것입니다.</string>
+    <string name="greeting_common_2">이러한 연구들을 통하여 교수진은 스마트 기술, 보안 기술 분야에서 앞선 교육을 할 수 있는 능력을 늘 갈고 닦고 있으며, 재학생들은
+이 연구에 참여하여 실무형 인재로 자라나고 있습니다.</string>
+    <string name="greeting_common_3">더 나아가,  우송대학교만의 유니트교육이라는 소수정예 프로그램을 개발하였으며, 이는 교수가 직접 지도하는 전문
+교육공간 안에 학생에게 개인연구 공간 및 교육장비를 지원하고 집중 관리하는 것입니다.</string>
+    <string name="greeting_common_4">우송 유니트교육을 통하여 기업이 원하는 앞선 인재를 맞춤형으로 길러낼 수 있으며 이는 기업, 대학, 학생이 모두 WIN-WIN 하는 결과를
+가져오고 있습니다.</string>
+
+
+    <!--컴정-->
+    <string name="hello_cs1">저희 우송대학교 컴퓨터정보·보안전공은 스마트 기술과 보안 기술을 집중하였고 , 이 분야를 중심으로 교육과정을 정비하고 취업 및 창업과 연계시키려는 노력을
+해오고 있습니다. 선진 기업 네트워크를 통하여 사회에서 꼭 필요한 인재를 원하는 기업이 원하는 인재를 양성할 수 있도록 교과목 및 교육 내용을 준비하고 있습니다.</string>
+    <string name="hello_cs3">컴퓨터정보·보안전공 교수진은 연구능력을 발전시켜 왔으며, 구체적으로는 한국연구재단으로 로봇 보안 분야의 연구를 수행할
+수 있는 과제를 유치하고, 철도기술연구원으로 부터 차세대 철도 스마트 기술연구를 수행할 수 있는 과제를 유치하는 등 그 연구능력을
+이미 객관적으로 입증하고 있습니다.</string>
+    <string name="hello_cs7">우송대학교 컴퓨터정보·보안전공, 고급취업을 지향하는 여러분의 핵심파트너입니다.</string>
+
+    <!--스마트-->
+    <string name="hello_smart1">스마트IT·보안전공은 제 4차 산업혁명에 대비해 스마트 기술과 보안 기술이 정보 기술의 발전의 축임을 미리부터 인지하고
+    , 이 분야를 중심으로 교육과정을 정비하고 취업 및 창업과 연계시키려는 노력을 해오고 있습니다. 이미 구축된 선진 기업
+    네트워크를 통하여 사회에서 인재를 원하는 기업이 원하는 인재를 양성할 수 있도록 제 4차 산업혁명에 맞추어
+    교과목 및 교육 내용을 준비하였으며, 이에 스마트IT·보안전공을 통해 자라는 인재들은 스마트응용분야, 보안 전문자 분야, 고연봉
+    프로그래밍 분야에서 취업을 하고 두각을 나타내게 되었습니다.
+</string>
+
+
+    <string name="hello_smart3">스마트IT·보안전공 교수진은 연구능력을 발전시켜 왔으며, 구체적으로는 한국연구재단으로 로봇 보안 분야의 연구를 수행할
+수 있는 과제를 유치하고, 다른 연구원으로부터 차세대 철도 스마트 기술연구를 다년간 수행할 수 있는 과제를 유치하는 등 그
+연구능력을 이미 객관적으로 입증하고있습니다. </string>
+
+    <string name="hello_smart7">우송대학교 스마트IT·보안전공, 고급취업을 지향하는 여러분의 핵심파트너입니다.</string>
+
 </resources>

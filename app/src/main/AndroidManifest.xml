@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-          package="com.zyp.cardview.demo">
+    package="com.aeyoung.postit.communitys">
 
     <application
         android:allowBackup="true"
@@ -8,15 +8,46 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".GreetingSmartActivity" />
+        <activity android:name=".GreetingCSActivity" />
+        <activity android:name=".MainActivity" />
+        <activity
+            android:name=".Splash"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
             <intent-filter>
-                <action android:name="android.intent.action.MAIN"/>
+                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER"/>
+                <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".SubActivity"/>
+        <activity android:name=".GreetingActivity" />
+        <activity android:name=".MajorInfoActivity" />
+        <activity android:name=".EduProcessActivity" />
+        <activity android:name=".ScheduleActivity" />
+        <activity android:name=".CommunityActivity" />
+        <activity android:name=".EndActivity" />
+        <activity android:name=".CSActivity" />
+        <activity android:name=".SmartITActivity" />
+        <activity android:name=".CSFirstActivity" />
+        <activity android:name=".CSSecondActivity" />
+        <activity android:name=".CSThirdActivity" />
+        <activity android:name=".CSFourthActivity" />
+        <activity android:name=".CSProcessActivity" />
+        <activity android:name=".SmartITProcessActivity" />
+        <activity android:name=".SmartITFirst" />
+        <activity android:name=".SmartITSecond" />
+        <activity android:name=".SmartITThirdActivity" />
+        <activity android:name=".SmartITFourthActivity" />
+    <!-- 스플래시 화면 -->
+        <activity android:name=".MainPage" />
+        <!-- 튜토리얼 -->
+        <activity android:name=".WelcomeActivity" />
     </application>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
 
 </manifest>
